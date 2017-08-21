@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>AJAX  Project: infinite scrolls and submitting form</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Movie Viewer: Infinite Scrolling with AJAX</title>
+  <link href="https://fonts.googleapis.com/css?family=Bungee|Open+Sans+Condensed:300" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="wrapper">
+    <h1>Movie Search</h1>
+    <small>Results provided by <a href="http://www.omdbapi.com/">The Open Movie Database</a></small>
+
+    <p class="subtitle">Search for any movie by title</p>
+    <form class="form" action="" method="GET" id="movieChooser">
+      <p>
+        <label for="movieTitle">Movie Title</label>
+        <input type="text" name="movieTitle" id="movieTitle" autofocus="true">
+      </p>
+      
+      <p class="year">
+        <label for="movieYear">Year (optional)</label>
+        <input type="text" id="movieYear" name="movieYear"> 
+      </p>
+      
+    
+      <input type="submit" value="Search" id="loadMovies" class="submit">
+    </form>
+
+    <ul id="target">
+    </ul>
+
+  </div>
+ 
+
+<!-- 
+  <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.1.1.min.js"></script>
+  <script>
+  if (typeof jQuery == 'undefined') {
+      document.write(unescape("%3Cscript src='/jquery.js' type='text/javascript'%3E%3C/script%3E"));
+  }
+  </script>
+ -->
+  <script src="jquery.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
+  
+    <script src="js/index.js"></script>
+
+</body>
+</html>
